@@ -1,24 +1,31 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
-  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
-  --color-background: oklch(1 0 0);
-  --color-foreground: oklch(0.145 0 0);
-  --color-card: oklch(1 0 0);
-  --color-card-foreground: oklch(0.145 0 0);
-  --color-primary: oklch(0.205 0 0);
-  --color-primary-foreground: oklch(0.985 0 0);
-  --color-secondary: oklch(0.97 0 0);
-  --color-secondary-foreground: oklch(0.205 0 0);
-  --color-muted: oklch(0.97 0 0);
-  --color-muted-foreground: oklch(0.556 0 0);
-  --color-accent: oklch(0.97 0 0);
-  --color-accent-foreground: oklch(0.205 0 0);
+  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-dm-serif), ui-serif, Georgia, serif;
+
+  --color-cream: #FAF7F2;
+  --color-linen: #E8DFD4;
+  --color-gold: #8B6914;
+  --color-espresso: #3D3229;
+  --color-taupe: #9A8B7A;
+
+  --color-background: #FAF7F2;
+  --color-foreground: #3D3229;
+  --color-card: #FFFFFF;
+  --color-card-foreground: #3D3229;
+  --color-primary: #8B6914;
+  --color-primary-foreground: #FAF7F2;
+  --color-secondary: #E8DFD4;
+  --color-secondary-foreground: #3D3229;
+  --color-muted: #E8DFD4;
+  --color-muted-foreground: #9A8B7A;
+  --color-accent: #8B6914;
+  --color-accent-foreground: #FAF7F2;
   --color-destructive: oklch(0.577 0.245 27.325);
-  --color-border: oklch(0.922 0 0);
-  --color-input: oklch(0.922 0 0);
-  --color-ring: oklch(0.708 0 0);
+  --color-border: #E8DFD4;
+  --color-input: #E8DFD4;
+  --color-ring: #8B6914;
   --radius: 0.5rem;
 }
 
@@ -30,4 +37,8 @@
     background-color: var(--color-background);
     color: var(--color-foreground);
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
